@@ -11,11 +11,12 @@
   <header><nav aria-label="Legal navigation"><a class="brand" href="./">Mote</a><a href="terms.html">Terms of Use</a><a href="privacy.html" aria-current="page">Privacy Policy</a></nav></header>
   <main>
     <h1>Privacy Policy</h1>
-    <p class="meta">Effective September 26, 2026 · Last updated September 26, 2026</p>
+    <p class="meta">Effective November 13, 2026 · Last updated November 13, 2026</p>
     <p class="intro">This policy explains how Mote handles information when you use the iPhone app or visit these legal pages. Ivan Borisov (“we,” “us,” or “our”) operates Mote. For privacy requests, email <a href="mailto:johanintheuk@gmail.com">johanintheuk@gmail.com</a>.</p>
 
     <h2>1. Notes and settings on your device</h2>
     <p>Mote stores your note text, contexts, scheduled times, and app settings in its local app storage. We do not run an account system or a server that receives or syncs your note text. Mote does not send note text to RevenueCat. Notes are available to us only if you choose to include them in an email or another message to us.</p>
+    <p>Starting with Mote 1.0.5, Mote keeps a local copy of current note text and context details such as names and colors in storage shared with its widget extension. This lets the extension display current notes and supports widget actions. Mote does not send this copy to us or to RevenueCat.</p>
     <p>iOS may include Mote’s local data in your device backup, including iCloud Backup if you enabled it. Backup and restoration are controlled by Apple and your device settings. This is separate from synchronization by Mote. See <a href="https://support.apple.com/guide/iphone/back-up-iphone-iph3ecf67d29/ios">Apple’s backup guidance</a>.</p>
 
     <h2>2. Purchases and RevenueCat</h2>
@@ -24,7 +25,8 @@
 
     <h2>3. Optional iOS features</h2>
     <p>If you choose Share, iOS sends the selected note to a destination you choose. Mote does not control the recipient’s privacy practices. Local notifications can alert you about a scheduled note but do not include its text. If you start or schedule a Live Activity, iOS may show note text on the Lock Screen, Dynamic Island, or other system surfaces, including when Mote is closed. You can stop Live Activities or manage their permission in iOS Settings.</p>
-    <p>Private Mode uses Face ID or a device passcode through iOS authentication. Mote does not receive biometric data or your passcode. Private Mode hides the app UI while locked and ends active Live Activities when enabled, but it does not separately encrypt the note database. On iOS 26 and later, a previously scheduled Live Activity might remain scheduled until Mote next runs and can cancel it after a Plus entitlement change; do not treat Private Mode as a guarantee that every system surface is immediately cleared while the app is suspended.</p>
+    <p>Widgets you add can show current note text and context names on the Home Screen, in StandBy, and on other supported Apple system surfaces. You can change the displayed context or remove a widget in iOS. Removing a widget does not delete the notes in Mote.</p>
+    <p>Private Mode uses Face ID, Touch ID, or a device passcode through iOS authentication. Mote does not receive biometric data or your passcode. Private Mode hides the app interface while locked and ends active and pending Live Activities when enabled. In Mote 1.0.5, enabling Private Mode also removes note text and context details from the data shared with widgets and requests a refresh. iOS controls when a previously displayed widget is refreshed. Private Mode does not separately encrypt the note database. On iOS 26 and later, if Plus access ends while Mote is suspended, a previously scheduled Live Activity can remain scheduled until Mote next runs and processes the change.</p>
 
     <h2>4. Feedback and contact</h2>
     <p>“Send Feedback” opens the iOS Mail composer addressed to <a href="mailto:johanintheuk@gmail.com">johanintheuk@gmail.com</a>. Mote does not attach your notes or diagnostics automatically. If you send an email, we receive the address, message, and any content you choose to include. Your mail provider and Google, which hosts our mailbox, also process the message under their policies. We use correspondence to answer you, handle requests, and keep records when reasonably needed for support or legal obligations.</p>
@@ -38,7 +40,7 @@
 
     <h2>7. Legal basis, location, and security</h2>
     <p>Where data protection law requires a legal basis, we process purchase information to provide Plus and fulfill our agreement with you; support correspondence to respond to your request; and limited technical data for service reliability, security, and our legitimate interests, subject to your rights. Some processing may occur in countries outside yours because Apple, RevenueCat, GitHub, and Google operate internationally. Their privacy policies describe their safeguards and rights processes.</p>
-    <p>We use the security features of iOS and service providers, but no system is perfectly secure. Your device security, backups, and choices about sharing or Live Activities affect who can see note content. Mote is not designed as a secure vault for highly sensitive information.</p>
+    <p>We use the security features of iOS and service providers, but no system is perfectly secure. Your device security, backups, and choices about sharing, widgets, and Live Activities affect who can see note content. Mote is not designed as a secure vault for highly sensitive information.</p>
 
     <h2>8. Children, changes, and questions</h2>
     <p>Mote does not ask users to create an account or provide contact details to use the app. If a child has sent us personal information through feedback, a parent or guardian may contact us to request its removal. We may update this policy when our practices or the app change. The current version and its date will remain at this URL; we will give additional notice when required by law.</p>
